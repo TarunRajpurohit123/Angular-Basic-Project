@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,GAAG,CAAC;ECDF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EDE9B,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,MAAM;CAUhB;;AAbD,AAIE,GAJC,CAID,EAAE,CAAC;EACD,WAAW,EAAE,UAAU;EACvB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;CACb;;AARH,AASE,GATC,CASD,EAAE,CAAC;ECVH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EDW5B,eAAe,EAAE,IAAI;CACtB",
+    "sources": [
+        "nav.component.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "nav.component.css"
+}

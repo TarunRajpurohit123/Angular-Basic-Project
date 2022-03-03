@@ -1,0 +1,27 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #070707;
+  padding: 2rem 0;
+}
+
+nav h1 {
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+/*# sourceMappingURL=nav.component.css.map */

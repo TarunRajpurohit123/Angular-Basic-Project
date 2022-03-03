@@ -1,0 +1,16 @@
+@import "mixins";
+
+nav {
+  @include flex;
+  background-color: #070707;
+  padding: 2rem 0;
+  h1 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: white;
+  }
+  ul {
+    @include flex;
+    list-style-type: none;
+  }
+}
