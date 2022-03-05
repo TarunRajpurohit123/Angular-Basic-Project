@@ -14,7 +14,12 @@ import { ContactCompComponent } from './components/contact-comp/contact-comp.com
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 import {HttpClientModule} from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +30,8 @@ import {HttpClientModule} from '@angular/common/http';
     RandomPipe,
     HomeComponent,
     ContactComponent,
-    ContactCompComponent
+    ContactCompComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -33,7 +39,11 @@ import {HttpClientModule} from '@angular/common/http';
     MatTableModule,
     MatButtonModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatBadgeModule,
+    BrowserAnimationsModule,
+    MatDatepickerModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

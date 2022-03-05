@@ -18,7 +18,9 @@ export class AppComponent {
   }
   todaydate = new Date(); 
   Object = {foo: 'bar', baz: 'qux', nested: {xyz: 3, numbers: [1, 2, 3, 4, 5]}};
-  //api
+//   onClickSubmit(result) {
+//     console.log("You have entered : " + result.username); 
+//  }
 
  
 }
